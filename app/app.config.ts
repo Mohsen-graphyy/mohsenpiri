@@ -17,9 +17,9 @@ export default defineAppConfig({
     instagram: "https://www.instagram.com/hajmohsenpiri/",
   },
   seo: {
-    title: "Canvas a Nuxt portfolio template",
+    title: "Mohsen Piri Frontend Engineer",
     description:
-      "Canvas is a simple but beautiful portfolio template for designers and developers built with Nuxt and Tailwind CSS. Made with ❤️ by HugoRCD",
+      "Explore the portfolio of Mohsen Piri, a skilled Frontend Engineer specializing in modern web technologies, UI/UX design, and responsive development. Building fast, accessible, and beautiful websites.",
     url: "https://canvas.hrcd.fr",
   },
   ui: {
