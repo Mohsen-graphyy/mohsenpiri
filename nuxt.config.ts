@@ -132,7 +132,4 @@ export default defineNuxtConfig({
   ogImage: {
     zeroRuntime: true,
   },
-  app: {
-    baseURL: "mohsenpiri",
-  },
 });
