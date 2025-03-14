@@ -3,5 +3,6 @@
   "image": "/projects/maktabkhooneh.webp",
   "link": "https://maktabkhooneh.org/",
   "release": "2025",
-  "featured": true
+  "featured": true,
+  "color": "blue"
 }

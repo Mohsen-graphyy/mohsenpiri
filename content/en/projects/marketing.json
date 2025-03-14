@@ -3,5 +3,6 @@
   "image": "/projects/marketing.webp",
   "link": "https://land.maktabkhooneh.org/summer/",
   "release": "2024",
-  "featured": true
+  "featured": true,
+  "color": "blue"
 }
