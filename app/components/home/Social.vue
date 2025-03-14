@@ -1,15 +1,14 @@
 <script setup lang="ts">
 const socialMediaRegexMap = [
   { regex: /github\.com/, name: 'GitHub', icon: 'custom:github' },
-  { regex: /twitter\.com/, name: 'X / Twitter', icon: 'custom:x' },
+  { regex: /t.me/, name: 'X / Telegram', icon: 'akar-icons:telegram-fill' },
   { regex: /linkedin\.com/, name: 'LinkedIn', icon: 'custom:linkedin' },
   { regex: /instagram\.com/, name: 'Instagram', icon: 'custom:instagram' },
-  { regex: /spotify\.com/, name: 'Spotify', icon: 'custom:spotify' },
 ]
 
 const { socials } = useAppConfig()
-const mappedSocials = Object.values(socials).map((link) => {
-  const foundSocial = socialMediaRegexMap.find(social => social.regex.test(link))
+const mappedSocials = Object.values(socials).map((link: unknown) => {
+  const foundSocial = socialMediaRegexMap.find(social => social.regex.test(link as string))
   if (!foundSocial) throw new Error(`No social media found for link: ${link}`)
   const { name, icon } = foundSocial
   return { name, link, icon }
